@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7F280434-392B-411D-AEA0-4E217D62A348}"
+	ProjectSection(SolutionItems) = preProject
+		IronMock.vsmdi = IronMock.vsmdi
+		License.txt = License.txt
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IronRuby", "IronRuby", "{4EF49982-67E1-46D4-AB90-9566404515CC}"
+	ProjectSection(SolutionItems) = preProject
+		IronRuby\IronRuby.dll = IronRuby\IronRuby.dll
+		IronRuby\IronRuby.Libraries.dll = IronRuby\IronRuby.Libraries.dll
+		IronRuby\IronRuby.Libraries.YAML.dll = IronRuby\IronRuby.Libraries.YAML.dll
+		IronRuby\Microsoft.Dynamic.dll = IronRuby\Microsoft.Dynamic.dll
+		IronRuby\Microsoft.Scripting.Debugging.dll = IronRuby\Microsoft.Scripting.Debugging.dll
+		IronRuby\Microsoft.Scripting.dll = IronRuby\Microsoft.Scripting.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronMock", "IronMock\IronMock.csproj", "{5E20506E-71A5-4249-AE7B-4E4B152C2C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronMock.Test", "IronMock.Test\IronMock.Test.csproj", "{ED7D8C77-32DD-478F-A780-2308C347A490}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IronMock.Example", "IronMock.Example\IronMock.Example.csproj", "{B263B647-41E9-40AB-BDE4-EA1A034F656E}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = IronMock.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5E20506E-71A5-4249-AE7B-4E4B152C2C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E20506E-71A5-4249-AE7B-4E4B152C2C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E20506E-71A5-4249-AE7B-4E4B152C2C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E20506E-71A5-4249-AE7B-4E4B152C2C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED7D8C77-32DD-478F-A780-2308C347A490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED7D8C77-32DD-478F-A780-2308C347A490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED7D8C77-32DD-478F-A780-2308C347A490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED7D8C77-32DD-478F-A780-2308C347A490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B263B647-41E9-40AB-BDE4-EA1A034F656E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B263B647-41E9-40AB-BDE4-EA1A034F656E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B263B647-41E9-40AB-BDE4-EA1A034F656E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B263B647-41E9-40AB-BDE4-EA1A034F656E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
